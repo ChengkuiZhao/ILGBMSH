@@ -18,6 +18,6 @@ numpy 1.20.3
 scipy 1.4.1
 
 torch 1.8.1+cu101
-#Note
-1.This code contains LightGBM algorithm and deeplearning algorithms.
-2.The method suit the best for the miR30-based shRNA prediction, while also could be an option for the shRNA with general scaffold.
+# Note
+1. This code contains LightGBM algorithm and deeplearning algorithms.
+2. The method suit the best for the miR30-based shRNA prediction, while also could be an option for the shRNA with general scaffold.

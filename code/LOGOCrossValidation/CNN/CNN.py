@@ -31,9 +31,9 @@ learning_rate = 0.0005
 kernelsize1=4
 kernelsize2=4
 kernelsize3=4
-sequence=pd.read_csv(r'.\sequence.csv')
+sequence=pd.read_csv(r'sequence.csv')
 sequence=sequence.iloc[:,1:].values.tolist()
-label=pd.read_csv(r'.\label.csv')
+label=pd.read_csv(r'label.csv')
 y=np.array(label.iloc[:,1],dtype=np.double)
 shRNAname=label.iloc[:,0]
 ###Data prerocessing

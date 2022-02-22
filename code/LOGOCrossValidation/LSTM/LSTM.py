@@ -27,9 +27,9 @@ num_epochs = 20
 num_classes = 2
 batch_size = 500
 learning_rate = 0.001
-sequence=pd.read_csv(r'.\sequence.csv')
+sequence=pd.read_csv(r'sequence.csv')
 sequence=sequence.iloc[:,1:].values.tolist()
-label=pd.read_csv(r'.\label.csv')
+label=pd.read_csv(r'label.csv')
 y=np.array(label.iloc[:,1],dtype=np.double)
 shRNAname=label.iloc[:,0]
 ###Data prerocessing

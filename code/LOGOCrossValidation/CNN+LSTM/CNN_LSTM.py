@@ -30,14 +30,13 @@ learning_rate = 0.001
 kernelsize1=4
 kernelsize2=4
 kernelsize3=4
-kernelsize4=4
 input_size=3
 output_size=2
 hidden_dim=256
 n_layers=2
-sequence=pd.read_csv(r'.\sequence.csv')
+sequence=pd.read_csv(r'sequence.csv')
 sequence=sequence.iloc[:,1:].values.tolist()
-label=pd.read_csv(r'.\label.csv')
+label=pd.read_csv(r'label.csv')
 y=np.array(label.iloc[:,1],dtype=np.double)
 shRNAname=label.iloc[:,0]
 ###Data preprocessing

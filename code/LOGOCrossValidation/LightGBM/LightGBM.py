@@ -14,9 +14,9 @@ import seaborn as sns
 import graphviz
 import numpy as np
 from scipy import interp
-df=pd.read_csv(r'.\AllFeature.csv')
+df=pd.read_csv(r'AllFeature.csv')
 df=df.iloc[:,1:]
-label=pd.read_csv(r'.\label.csv')
+label=pd.read_csv(r'label.csv')
 y=pd.Series(label.iloc[:,1])
 patientname=label.iloc[:,0]
 ###Data preprocessing
@@ -106,49 +106,3 @@ plt.title('Receiver Operating characteristic ',fontsize=30)
 plt.legend(loc="lower right",fontsize=20)
 #plt.show()
 plt.savefig('ROC for All Genes.pdf')
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

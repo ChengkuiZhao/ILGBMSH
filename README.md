@@ -1,7 +1,7 @@
 # Design-miR30-shRNA
 We developed the potent shRNA target prediction model with the advanced ensemble algorithm LightGBM. Comparing with previous shRNA prediction and the deep learning method, our model achieves the best prediction.
 # Workflow
-![image text](https://github.com/ChengkuiZhao/Design-miR30-shRNA/blob/main/image/1.Workflow.pdf)
+![image text](https://github.com/ChengkuiZhao/Design-miR30-shRNA/blob/main/image/1.Workflow.png)
 # Installation
 git clone https://github.com/ChengkuiZhao/Design-miR30-shRNA
 # Requirement

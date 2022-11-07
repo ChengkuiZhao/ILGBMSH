@@ -19,7 +19,7 @@ scipy 1.4.1
 
 torch 1.8.1+cu101
 # Online Tool
-The online tool is available at http://shrna.unicar-therapy.com/#/home
+The online tool is available at http://shrna.unicar-therapy.com
 # Note
 1. This code contains LightGBM algorithm and deeplearning algorithms.
 2. The method suit the best for the miR30-based shRNA prediction, while also could be an option for the shRNA with general scaffold.

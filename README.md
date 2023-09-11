@@ -23,3 +23,10 @@ The online tool is available at http://shrna.unicar-therapy.com
 # Note
 1. This code contains LightGBM algorithm and deeplearning algorithms.
 2. The method suit the best for the miR30-based shRNA prediction, while also could be an option for the shRNA with general scaffold.
+## Citation
+If you use this data, tool or code, please considering citing:
+Zhao C, Xu N, Tan J, Cheng Q, Xie W, Xu J, Wei Z, Ye J, Yu L, Feng W. ILGBMSH: an interpretable classification model for the shRNA target prediction with ensemble learning algorithm. Brief Bioinform. 2022 Nov 19;23(6):bbac429. doi: 10.1093/bib/bbac429. PMID: 36184189.
+        
+        
+        
+        

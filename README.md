@@ -27,7 +27,11 @@ The online tool is available at http://shrna.unicar-therapy.com
 If you use this data, tool or code, please considering citing:<br />
 **Zhao C, Xu N, Tan J, Cheng Q, Xie W, Xu J, Wei Z, Ye J, Yu L, Feng W.** <br />
 ILGBMSH: an interpretable classification model for the shRNA target prediction with ensemble learning algorithm. <br />
-**Brief Bioinform**. 2022 Nov 19;23(6):bbac429. doi: 10.1093/bib/bbac429
+**Brief Bioinform**, 2022 Nov 19;23(6):bbac429, doi: 10.1093/bib/bbac429
+        
+        
+        
+        
         
         
         
